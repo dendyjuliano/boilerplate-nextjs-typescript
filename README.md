@@ -37,13 +37,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## Rename Folder
-
-| Parameter | Description                                           | Required? | Example             |
-| --------- | ----------------------------------------------------- | --------- | ------------------- |
-| [project] | Project Name, should follow system folder/file naming | yes       | "QSI.Smart.Courier" |
-| [version] | Project Boilerplage version in file package.json      | yes       | 1.0.0               |
-
 ## Change Global Config
 
 go to `tailwind.config.js` if you want to change the design system based on mockup in figma

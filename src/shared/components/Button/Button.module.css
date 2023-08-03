@@ -1,0 +1,40 @@
+.button {
+  padding: 8px 24px;
+  font-weight: 500;
+  font-size: theme("fontSize.m");
+  border-radius: 12px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: 100%;
+}
+
+.iconOnly {
+  padding: 8px !important;
+  border-radius: 4px !important;
+  font-size: theme("fontSize.l") !important;
+}
+
+.solidPrimary {
+  background-color: theme("colors.primary.main");
+  color: theme("colors.neutral.10");
+}
+
+.borderPrimary {
+  border: 1px solid theme("colors.primary.border");
+  background: theme("colors.neutral.10");
+  color: theme("colors.primary.main");
+}
+
+.solidPrimary:hover {
+  background-color: theme("colors.primary.hover");
+}
+
+.borderPrimary:hover {
+  color: theme("colors.primary.hover");
+}

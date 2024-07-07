@@ -26,3 +26,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.ant-spin-nested-loading {
+  font-family: inherit !important;
+  font-size: inherit !important;
+}
